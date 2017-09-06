@@ -1,0 +1,21 @@
+vi:
+  message-welcome: '<h1>Kiểm tra bảo mật</h1>
+                    <p class="text-muted">Để có thể tham gia vào những dự án sắp tới, bạn cần đạt được 40 điểm để vượt qua kỳ kiểm tra này.</p>
+                    <p>Hãy chọn ngôn ngữ của bạn và cung cấp thông tin bên dưới.</p>
+                    <p>Chúc may mắn</p>'
+  btn-prev: Trước
+  btn-next: Tiếp
+  btn-submit: Gửi
+  btn-finish: Hoàn Thành
+  btn-again: Làm lại những câu sai
+  txt-logout: Đăng xuất
+  user-header: Nhập thông tin của bạn  
+  fullname: Họ Tên
+  company-name: Tên Công ty
+  project-name: Tên dự án
+  result-fail: Bạn chưa đủ điểm để vượt qua kỳ kiểm tra này. Hãy thực hiện lại.
+  result-passed: Chúc mừng bạn đã vượt qua kỳ kiểm tra.
+  result-point: Điểm
+  txt-congratulation: Chúc mừng! Bạn đã vượt qua kỳ kiểm tra.
+  error:
+    fullname-require: Vui lòng nhập họ tên

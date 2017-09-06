@@ -1,0 +1,5 @@
+es:
+  message: "Hello world"
+  btn-next: Next
+  btn-previous: Previous
+  require_name: Please input your name

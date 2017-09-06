@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+    <question id="1">
+        <content>社外でのネットワーク接続について、適切なものはどれでしょうか？</content>
+        <correct>3</correct>
+        <options>
+            <option value="1">会社貸与のPCを使用し、やりとりするファイルを暗号化等で保護しているのであれば、どのネットワークサービスに接続してもよい</option>
+            <option value="2">ネットワークサービスの中には怪しいアクセスポイントなどもあるので、重要な情報をやりとりする場合は公共の場所（空港や駅、ホテルなど）のサービスを選んで接続する</option>
+            <option value="3">重要な情報をやりとりする場合は、場所に関わらずネットワークサービスの通信の暗号化等のセキュリティ対策が確認できているサービスを選んで接続する</option>
+            <option value="4">PCでの接続は危険なので、スマートフォンかタブレット端末で接続するようにする</option>
+        </options>
+    </question>
+    <question id="2">
+        <content>見覚えのないメールアドレスから、商品のURLが書かれた広告メールが配信されてきました。そのときの対応として最も望ましいものはどれでしょうか？</content>
+        <correct>2</correct>
+        <options>
+            <option value="1">必要のない商品であったため「配信停止の場合はメールを返信してください」と、書かれていたので、返信する</option>
+            <option value="2">見覚えがないので特に何もせず削除する</option>
+            <option value="3">必要のない商品であったため、配信先に電話をして、配信停止を申し入れる</option>
+            <option value="4">メールに書かれているURLを試しにクリックしてみる</option>
+        </options>
+    </question>
+    <question id="3">
+        <content>ウイルス等への感染の恐れについて間違った理解は次のどれでしょうか？</content>
+        <correct>3</correct>
+        <options>
+            <option value="1">普段よく訪れるウェブサイトでも、ある日突然ウイルスなどが仕込まれる恐れがある</option>
+            <option value="2">いつも通信している取引先からのメールでもウイルス感染している恐れがある</option>
+            <option value="3">CDやDVDは後から変更できないのでウイルス感染の心配はない</option>
+            <option value="4">宣伝や勧誘のメールに書かれているURLを不用意にクリックするのは危険</option>
+        </options>
+    </question>
+    <question id="4">
+        <content>USBメモリを利用する際の注意点として、最も誤っているのは次のうちどれでしょうか？</content>
+        <correct>3</correct>
+        <options>
+            <option value="1">カバンに入れて置き忘れたり、衣服のポケットに入れたまま気がつかずに紛失する可能性があるため、不必要なデータは格納しないよう気をつける</option>
+            <option value="2">出張先のホテルに設置されたPCや自宅の家族共有PCで使用したUSBメモリや、知人から譲りうけたUSBメモリには、ウイルス感染リスクがあることを認識し、不必要に利用しない</option>
+            <option value="3">WindowsPCでUSBメモリを使って業務を行う際は、できるだけ素早く情報を利用したいので、Windowsの自動再生機能を有効にしておく</option>
+            <option value="4">USBメモリをPCに挿した際に、見覚えのないファイルがUSBメモリ内にあるときは、ファイルを開かないようにする</option>
+        </options>
+    </question>
+    <question id="5">
+        <content>インターネットを安全に利用・閲覧するための考え方について、最も適切ではないものはどれでしょうか？</content>
+        <correct>2</correct>
+        <options>
+            <option value="1">信頼できないと思われるWebサイトの閲覧は避ける</option>
+            <option value="2">ウイルス対策ソフトをインストールしていればWebサイトの閲覧は安全である</option>
+            <option value="3">必要以上に個人情報（氏名、住所、電話番号、クレジット番号等）を入力しないほうが良い</option>
+            <option value="4">Webサイトから入手できるファイルをむやみにダウンロードしない</option>
+        </options>
+    </question>
+    <question id="6">
+        <content>使用中のパソコンがウイルス感染した兆候であると思われる現象に最も該当しないものはどれでしょうか？</content>
+        <correct>4</correct>
+        <options>
+            <option value="1">画面上に、奇妙なメッセージが表示された、または、音楽が流れた</option>
+            <option value="2">システムの動作速度が遅くなった、または、途中で動かなくなった</option>
+            <option value="3">突然、フォルダの中のデータが消え始めた</option>
+            <option value="4">社外にメールを送信したところ「Returned mail: see transcript for details」という件名のメールが来た</option>
+        </options>
+    </question>
+    <question id="7">
+        <content>業務中に離席する場合の最も不適切な対応は次のどれでしょうか？</content>
+        <correct>1</correct>
+        <options>
+            <option value="1">戻ったときにすぐに仕事を再開できるように、画面を開けたままにしておく</option>
+            <option value="2">パスワードつきのスクリーンセーバを短時間で起動するように設定しておく</option>
+            <option value="3">｢コンピュータのロック｣を起動してロックをかける</option>
+            <option value="4">パソコンのディスプレイの電源スイッチをオフにしてから席を立つ（デスクトップパソコンの場合）</option>
+        </options>
+    </question>
+    <question id="8">
+        <content>スパイウエアの説明や対策について、適切でないものは次のうちどれでしょうか？</content>
+        <correct>3</correct>
+        <options>
+            <option value="1">ブラウザの上部のツールバーが勝手に変更されてしまった場合は、スパイウエアによることも考えられる</option>
+            <option value="2">フリーのソフトなどをインストールする場合は、スパイウエアの混入に注意が必要である</option>
+            <option value="3">スパイウエアはウイルスなどに比べて、被害が大きくならないので、対策の必要性はあまりない</option>
+            <option value="4">使用者がキーボードから入力した文字の履歴や個人情報などが、スパイウエアにより収集されてしまうことがある</option>
+        </options>
+    </question>
+    <question id="9">
+        <content>業務で重要情報にアクセスする際、社内の無線ネットワークにつながらない場合の利用について、適切なものはどれでしょうか？</content>
+        <correct>3</correct>
+        <options>
+            <option value="1">会社貸与のPCが社内ネットワークにつながらないので、つながりそうなWi-Fiを見つけてインターネット接続した</option>
+            <option value="2">会社貸与のPCが社内ネットワークにつながらないので、個人のポケットWi-Fiルータを使い接続した</option>
+            <option value="3">自分の会社貸与のPCが社内ネットワークにつながらないので、管理者の指示により、他のPCを使用した</option>
+            <option value="4">自分の会社貸与のPCが社内ネットワークにつながらないので、個人のスマートフォンで接続した</option>
+        </options>
+    </question>
+    <question id="10">
+        <content>情報の入ったパソコンの廃棄方法として適切でないと思われるものはどれでしょうか？</content>
+        <correct>1</correct>
+        <options>
+            <option value="1">特に何もせずに通常の廃棄物として処分する</option>
+            <option value="2">物理的に破壊し、データの読み取りを不可能にする</option>
+            <option value="3">データ消去用ソフトを使用し、データを完全に消去した後、廃棄する</option>
+            <option value="4">専門の廃棄業者に依頼する</option>
+        </options>
+    </question>
+</questions>
