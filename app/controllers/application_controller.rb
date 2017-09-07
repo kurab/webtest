@@ -18,7 +18,11 @@ class ApplicationController < Sinatra::Base
     set :cookies_expires, Time.now + 86400000
 
     # Point options
-    set :point_passed, 4
+    set :point_passed, 40
+
+    # Setting for administrator
+    set :admin_username, "admin"
+    set :admin_password, "admin"
 
     configure do
         logDir = File.expand_path('../../../log', __FILE__)
