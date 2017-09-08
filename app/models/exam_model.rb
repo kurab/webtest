@@ -14,4 +14,15 @@ class Exam
         return questions;
     end
 
+    def getQuestionInfo(questions, question_id)
+        item = nil
+        questions.each do |question|
+            if question.id.to_s == question_id                
+                item = question
+                break
+            end
+        end
+        item
+    end
+
 end

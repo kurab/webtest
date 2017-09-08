@@ -13,3 +13,7 @@ end
 map '/' do
     run WebsiteController
 end
+
+map '/admin' do
+    run AdminController
+end

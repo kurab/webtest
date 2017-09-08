@@ -10,11 +10,11 @@ class ExamController < ApplicationController
   # trieunn@linfull-tech.vn
   CW_API_TOKEN = "43a7ce885febc254c6b4ab74878cc4e8"
   
-  # Private
-  ROOM_ID = 83237551
+  # Private - trieunn@lifull-tech.vn
+  # ROOM_ID = 83237551
 
   # kura - 倉林 寛至
-  # ROOM_ID = 83330649
+  ROOM_ID = 83330649
   
  def get_room
   # "account_id"=>571308, "room_id"=>3527615

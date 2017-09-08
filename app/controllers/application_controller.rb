@@ -21,6 +21,7 @@ class ApplicationController < Sinatra::Base
     set :point_passed, 40
 
     # Setting for administrator
+    set :admin_name, "Administrator"
     set :admin_username, "admin"
     set :admin_password, "admin"
 
