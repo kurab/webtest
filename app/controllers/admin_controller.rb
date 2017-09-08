@@ -107,6 +107,16 @@ class AdminController < ApplicationController
             redirect '/admin/login'
         end
 
+        lang = get_locale
+        
+        #old question
+        exam = Exam.new
+        old_questions = exam.getQuestions(lang)
+
+        # Collect data
+        max_id = _get_question_max_id(old_questions)
+        @question_id = max_id + 1
+
         @errors = {}
         @data = {
             'content' => '',
@@ -236,7 +246,7 @@ class AdminController < ApplicationController
             option4 = Option.new(4,params['option_4'])
     
             question_upd = Question.new
-            question_upd.id = params['id']
+            question_upd.id = params['id'].to_i
             question_upd.content = params['content']
             question_upd.answer = params['answer'].to_i
             question_upd.explain = params['explain']

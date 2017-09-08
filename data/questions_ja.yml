@@ -163,3 +163,165 @@ questions:
   - !ruby/object:Option
     id: 4
     content: 自分の会社貸与のPCが社内ネットワークにつながらないので、個人のスマートフォンで接続した
+- !ruby/object:Question
+  id: 10
+  content: 情報の入ったパソコンの廃棄方法として適切でないと思われるものはどれでしょうか？
+  answer: 1
+  explain: ゴミから拾われて情報が漏えいする危険性があるため廃棄時には情報を読み出せなくしておく必要があります。なお、ネクストでは廃棄の際は専門の業者に依頼していますので、まずは情報システムGに相談してください。
+  options:
+  - !ruby/object:Option
+    id: 1
+    content: 特に何もせずに通常の廃棄物として処分する
+  - !ruby/object:Option
+    id: 2
+    content: 物理的に破壊し、データの読み取りを不可能にする
+  - !ruby/object:Option
+    id: 3
+    content: データ消去用ソフトを使用し、データを完全に消去した後、廃棄する
+  - !ruby/object:Option
+    id: 4
+    content: 専門の廃棄業者に依頼する
+- !ruby/object:Question
+  id: 11
+  content: インターネットを利用して情報収集をしていたところ突然「入会ありがとうございます。登録料を振り込んでください」というメッセージが表示されました。この場合の最も適切な対応はどれでしょうか？
+  answer: 4
+  explain: これは「架空請求」の典型的な手口です。このような身の覚えのない請求があった場合にはあわてずに無視しましょう。 また、クリックしただけでは一般的に入会の手続きとはなりません。（誤って入会した場合も、「電子消費者契約及び電子承諾通知に関する民法の特例に関する法律」により救済され可能性があります。）
+  options:
+  - !ruby/object:Option
+    id: 1
+    content: ただちに、指定された口座に指定された金額を入金する
+  - !ruby/object:Option
+    id: 2
+    content: 請求画面に表示されている、プロバイダのIPアドレスやホスト名が自分の利用しているものであるかどうかを確認してから、振込みをするかどうか判断する
+  - !ruby/object:Option
+    id: 3
+    content: 利用状況や支払理由などを確認するために業者に連絡を取る
+  - !ruby/object:Option
+    id: 4
+    content: そのまま、何もしない
+- !ruby/object:Question
+  id: 12
+  content: 差出人や内容に心当たりがない添付ファイルつきメールが来た時の対処法として最も適切なものはどれでしょうか？
+  answer: 2
+  explain: 差出人や内容に心当たりがない場合は、添付ファイルも開かず、そのまま削除することが望ましいでしょう。
+  options:
+  - !ruby/object:Option
+    id: 1
+    content: 内容を確認するために、直ちに添付ファイルをダブルクリックして起動する
+  - !ruby/object:Option
+    id: 2
+    content: 差出人にも心当たりがないため、メールごと削除する
+  - !ruby/object:Option
+    id: 3
+    content: ネットワークケーブル（LAN線）を抜いて添付ファイルを開けてみる
+  - !ruby/object:Option
+    id: 4
+    content: 直ちに上司に報告して上司の見ている前でファイルを開けてみる
+- !ruby/object:Question
+  id: 13
+  content: ネットカフェでインターネット利用する場合に間違った認識のものはどれでしょうか?
+  answer: 3
+  explain: キーロガーのような不正ソフトウェアがインストールされているPCでは、電子メールソフトを利用したメールであっても、メールアカウント、パスワード等が漏えいする危険性があります。
+  options:
+  - !ruby/object:Option
+    id: 1
+    content: 個人情報（名前、住所、クレジットカード番号等）を入力しない
+  - !ruby/object:Option
+    id: 2
+    content: インターネットバンキングは利用しない
+  - !ruby/object:Option
+    id: 3
+    content: 電子メールソフトを利用したメールのみ利用し、Webメールは利用しない
+  - !ruby/object:Option
+    id: 4
+    content: 帰る前には、必ず閲覧の履歴等を削除する
+- !ruby/object:Question
+  id: 14
+  content: 業務中のインターネット利用方法として、適切でないと思われるものはどれでしょうか?
+  answer: 3
+  explain: 業務用パソコンがウイルス感染した場合、社内ネットワークに感染が拡大するおそれがあるため、ウイルス対策は必須です。
+  options:
+  - !ruby/object:Option
+    id: 1
+    content: 業務で必要な情報を検索する
+  - !ruby/object:Option
+    id: 2
+    content: 会社から与えられたメールアドレスでのメール送受信を行う
+  - !ruby/object:Option
+    id: 3
+    content: 通信を早くするためにウイルス対策ソフトを止めて利用する
+  - !ruby/object:Option
+    id: 4
+    content: SSL対応（httpsや鍵マークの表示）されていないサイトでは、機密情報や個人情報を入力しない
+- !ruby/object:Question
+  id: 15
+  content: あなたは転職することになりました。会社を退職する際にしてはいけないことはどれでしょうか?
+  answer: 2
+  explain: 業務時間中に作成したデータなどは、会社の著作物となるので、持ち帰り、次の会社で使用することはできません。
+  options:
+  - !ruby/object:Option
+    id: 1
+    content: 取引先や顧客、自分の名刺を上司に渡す
+  - !ruby/object:Option
+    id: 2
+    content: 業務で自分が作ったデータは自分のものなので持ち帰る
+  - !ruby/object:Option
+    id: 3
+    content: 自宅のパソコンで業務をしたデータが残っていないかを確認し、残っていたら削除する
+  - !ruby/object:Option
+    id: 4
+    content: 取引先・関係者に後任者を紹介する
+- !ruby/object:Question
+  id: 16
+  content: 適切なログイン設定がされているノートパソコンが盗難にあった場合、最も情報漏えいの危険性が低いと考えられる状態はどれでしょうか？
+  answer: 3
+  explain: たとえログインができない場合でも、内蔵ハードディスクを外して別のパソコンに接続することによりデータへのアクセスが可能となることがあります。データそのものを暗号化しておくことにより、ハードディスクからのデータの読み出しを困難にすることができます。
+  options:
+  - !ruby/object:Option
+    id: 1
+    content: 完全にシャットダウンしてあった
+  - !ruby/object:Option
+    id: 2
+    content: 直ぐに仕事ができるよう、スタンバイ状態にしてあった
+  - !ruby/object:Option
+    id: 3
+    content: 完全にシャットダウンしてあり、ハードディスクは暗号化してあった
+  - !ruby/object:Option
+    id: 4
+    content: 直ぐに仕事ができるよう電源を入れたままスクリーンロックが掛けられていた
+- !ruby/object:Question
+  id: 17
+  content: 社内ネットワークに繋いでいるパソコンが、ウイルスに感染したと思われる時の行動として最も適切でないものはどれでしょうか？
+  answer: 4
+  explain: データが既にウイルスに感染している可能性があるため、パソコンのデータを共有ドライブにバックアップすることはウイルス感染を広げる恐れがあります
+  options:
+  - !ruby/object:Option
+    id: 1
+    content: ネットワークケーブルを抜き、ウイルスに感染したパソコンをネットワークから切り離す
+  - !ruby/object:Option
+    id: 2
+    content: ウイルス感染の原因を特定するために電源は切らないでおく
+  - !ruby/object:Option
+    id: 3
+    content: 情報システムGなどネットワーク管理者に連絡する
+  - !ruby/object:Option
+    id: 4
+    content: 作りかけの資料があったので、パソコン内のデータを社内ネットワーク内の共有サーバ上にバックアップとして保存する
+- !ruby/object:Question
+  id: 18
+  content: Wi-Fiはその利便性の一方、無防備に利用していると、情報漏えいなどの原因になってしまいます。Wi-Fiのセキュリティ向上に役立たないものはどれでしょうか？
+  answer: 4
+  explain: Wi-Fiは配線不要のため、場所を選ばす利用でき大変便利ですが、外部に漏れた電波により、オフィス外からもアクセス可能になってしまいます。暗号化等のセキュリティ対策は必ず行いましょう。
+  options:
+  - !ruby/object:Option
+    id: 1
+    content: データの暗号化を行う（WEP、WPA等）
+  - !ruby/object:Option
+    id: 2
+    content: WiFiアクセスポイントに接続できるPCを制限する（MACアドレスフィルタリング）
+  - !ruby/object:Option
+    id: 3
+    content: WiFiアクセスポイントのIDを通知しない  （ステルス機能）
+  - !ruby/object:Option
+    id: 4
+    content: 電波強度を上げる（ハイパワーアンテナ）
