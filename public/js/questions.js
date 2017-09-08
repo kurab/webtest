@@ -29,6 +29,7 @@ $(document).ready(function () {
         }
         
         var percent = ( (total_answer - 1) / total_question) * 100;
+        percent = Math.round(percent)
         console.log('Answer: ' + total_answer);
         prc_width = percent;
         console.log(prc_width);

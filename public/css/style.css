@@ -7,7 +7,7 @@ body {
 }
 
 .container{
-    height: 95%;
+    min-height: 95%;
 }
 
 .question-wrapper{

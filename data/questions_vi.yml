@@ -844,7 +844,7 @@ questions:
     id: 4
     content: Sử dụng software keyboard.
 - !ruby/object:Question
-  id: 37
+  id: '37'
   content: Khi xử lý các dữ liệu hình ảnh, trường hợp sẽ dễ dàng khi sử dụng phần
     mềm free nên sử dụng luôn các phần mềm free đó . Phương pháp nào là phương pháp
     sử dụng nào là thích hợp nhất
@@ -866,7 +866,7 @@ questions:
       những phần mềm đo nếu an toàn sẽ dùng
   - !ruby/object:Option
     id: 4
-    content: 
+    content: Vì sử dụng được nê install trên PC của người khác
 - !ruby/object:Question
   id: 38
   content: Bao lâu thì cần kiểm tra thông tin mới nhất của file định nghĩa virus của
