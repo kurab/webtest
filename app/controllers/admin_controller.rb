@@ -364,7 +364,7 @@ class AdminController < ApplicationController
         unless questions.nil?
             questions.each do |question|
                 if question.id.to_i > max_id
-                    max_id = question.id
+                    max_id = question.id.to_i
                 end
             end
         end
