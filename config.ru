@@ -17,6 +17,10 @@ require "./app/models/user_model.rb"
 
 # Dir.glob('./app/{models,helpers,controllers}/*.rb').each { |file| require file }
 
+map "/public" do
+    run Rack::Directory.new("./public")
+end
+
 map '/exam' do 
     run ExamController
 end

@@ -18,7 +18,7 @@ class ApplicationController < Sinatra::Base
     set :cookies_expires, Time.now + 86400000
 
     # Point options
-    set :point_passed, 40
+    set :point_passed, 4
 
     # Setting for administrator
     set :admin_name, "Administrator"
