@@ -3,6 +3,7 @@ require 'i18n'
 require 'logger'
 require 'sinatra/logger'
 require "sinatra/cookies"
+require "bcrypt"
 require "./app/controllers/application_controller.rb"
 require "./app/controllers/admin_controller.rb"
 require "./app/controllers/exam_controller.rb"

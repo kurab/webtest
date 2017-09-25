@@ -71,6 +71,8 @@ class AdminController < ApplicationController
             redirect '/admin'
         end
 
+        # @password_salt = BCrypt::Engine.generate_salt
+        # @password_hash = BCrypt::Engine.hash_secret('lifull-techvn@#@', @password_salt)
         @error_message = '';
         erb :"admin/login"
     end
@@ -80,14 +82,19 @@ class AdminController < ApplicationController
         password = params['password']
 
         @error_message = ''
-        if username != settings.admin_username || password != settings.admin_password
+        if username == settings.admin_username
+            if settings.admin_password_hash == BCrypt::Engine.hash_secret(password, settings.admin_password_salt)
+                session['admin_login'] = '1'
+                session['admin_username'] = username
+                session['admin_name'] = settings.admin_name
+                redirect '/admin/choose-language'
+            else
+                @error_message = 'Username or Password is incorrect';
+                erb :"admin/login"
+            end
+        else
             @error_message = 'Username or Password is incorrect';
             erb :"admin/login"
-        else 
-            session['admin_login'] = '1'
-            session['admin_username'] = username
-            session['admin_name'] = settings.admin_name
-            redirect '/admin/choose-language'
         end
     end
 

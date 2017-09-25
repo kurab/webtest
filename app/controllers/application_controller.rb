@@ -23,7 +23,8 @@ class ApplicationController < Sinatra::Base
     # Setting for administrator
     set :admin_name, "Administrator"
     set :admin_username, "admin"
-    set :admin_password, "admin"
+    set :admin_password_salt, "$2a$10$2ObaFYKERzNH36oNpgEO8u"
+    set :admin_password_hash, "$2a$10$2ObaFYKERzNH36oNpgEO8uhJ2xZhixbqyHfHfodGhCu/8SYOV38wK"
 
     configure do
         logDir = File.expand_path('../../../log', __FILE__)
