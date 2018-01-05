@@ -8,7 +8,7 @@ require './app/models/exam_model'
 class ExamController < ApplicationController
 
   # trieunn@linfull-tech.vn
-  CW_API_TOKEN = "43a7ce885febc254c6b4ab74878cc4e8"
+  CW_API_TOKEN = "5284fcfbf5bf75322455e3fae74f4308"
   
   # Private - trieunn@lifull-tech.vn
   # ROOM_ID = 83237551
